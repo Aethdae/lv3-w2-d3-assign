@@ -11,7 +11,7 @@ export default function TimeCard({ time }) {
     return exp;
   }
   return (
-    <div className="flex flex-col justify-around gap-4 p-6 text-xl max-w-[75%] border-2 border-black text-white items-center mx-auto my-10">
+    <div className="flex flex-col justify-around gap-4 p-6 text-xl max-w-[75%] border-2 bg-gray-800 border-white rounded-3xl text-white items-center mx-auto my-10">
       <p>It has been {time.getTime()} milliseconds since Epoch time.</p>
       <p>That makes it larger than 2 ^ {getSquare(time.getTime())}!</p>
       <p>

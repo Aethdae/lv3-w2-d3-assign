@@ -5,7 +5,7 @@ export default function TimeCalc({ timeMS, timeISO, timeOffset }) {
   const buttonClasses =
     "px-4 py-2 bg-blue-700 text-white hover:bg-blue-500 hover:outline-1 active:outline-4 hover:outline-white rounded-xl";
   return (
-    <div className="flex items-center flex-col text-xl gap-10 bg-gray-800 max-w-160 mx-auto py-10 rounded-2xl text-white">
+    <div className="flex items-center flex-col text-xl gap-10 border-2 border-white bg-gray-800 max-w-160 mx-auto py-10 rounded-2xl text-white">
       {version === "ms" && (
         <>
           <TimeMs timeMS={timeMS} />
